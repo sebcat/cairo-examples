@@ -14,7 +14,7 @@ main(void)
       WIDTH, HEIGHT);
   cr = cairo_create(surface);
 
-  cairo_surface_write_to_png(surface, "hello-world.png");
+  cairo_surface_write_to_png(surface, FILENAME);
   cairo_surface_destroy(surface);
   cairo_destroy(cr);
 }
